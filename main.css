@@ -1,13 +1,87 @@
-.topbar ul{
-    list-style: none;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.Logo span{
-    font-size: 70px;
-    text-align: left;  
-    font-weight: bold;
-    font-weight: Times;
+body{
+    background: #F0F1DF;
+    padding: 40px;
 }
-.Logo ul{
+
+.heading{
+    font-size: 70px;
+    text-transform:uppercase;
+    text-align: center;
+    border-bottom: 1px solid #53624E; 
+    margin-bottom: 40px; 
+}
+
+.heading div{
+ border-top: 1px solid #53624E;
+ padding: 20px;
+}
+
+#main{
+    color:#53624F;
+}
+
+.reservations .reserve_button{
+    font-size: 12px;
+
+}
+
+img{
+    width: 100%;
+}
+.heading div span{
+    text-transform:lowercase;
+    font-weight: italic;
+}
+
+.reserve_button{
+    text-transform: uppercase;
+    color: #E0E1DF;
+    background: #53624E;
+    padding: 20px 30px;
+    display: inline-block;
+    border:1px solid #53624E
+}
+.reservations ul{
     list-style: none;
+
+}
+
+.reservations ul li{
+    padding: 30px;
+    border: 1px solid #53624E;
+    text-align: center;
+    position: relative;
+}
+.navbar{
+    position: fixed;
+    background: #F0F1DF;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.navbar{
+    position: fixed;
+    background: #F0F1DF;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.heading{
+    margin-top: 274px;
+}
+.Calendar{
+    background: red;
+    position: absolute;
+    height: 100px;
+    bottom: -100px;
+    left: 0;
+    right: 0;
+    z-index: 2;
 }
