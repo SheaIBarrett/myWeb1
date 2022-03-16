@@ -1,3 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #F0F1DF;
+    padding-left: 40px;
+}
+body .main .firstImage span{
+    padding-left: -100;
+    padding-right: 120%;
+}
 .topbar ul{
     list-style: none;
 }
@@ -10,4 +22,15 @@
 }
 .Logo ul{
     list-style: none;
+}
+
+.chatBox{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+
+    right: 20px;
+    left: 100px;
+   background: black;
+    z-index: 9999;
 }
