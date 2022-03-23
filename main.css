@@ -6,23 +6,95 @@ body{
     background: #F0F1DF;
     padding-left: 40px;
 }
-body .main .firstImage span{
-    padding-left: -100;
-    padding-right: 120%;
+
+.topbar{
+    display: flex;
+    border-bottom: 1px solid #53624E;
 }
-.topbar ul{
-    list-style: none;
+.topbar div{
+    padding: 25px;
+}
+.topbar .topFirst{
+    margin-right: auto;
+background: blue;
+}
+.topbar .topRight{
+    background: red;
+    border-left: 1px solid #53624E;
 }
 
-.Logo span{
-    font-size: 70px;
-    text-align: left;  
+
+.Logo{
+    display: flex;
+    padding: 20px;
+}
+.Logo .topFirst{
+    font-size: 30px;
+    font-weight: bold;
+    font-weight: Times;
+    margin-right: auto;
+    background: blue;
+}
+.Logo ul{
+    display: flex;
+}
+.Logo .topRight{
+    padding-left: 10px;
+    background: red;
+}
+
+
+.firstImage{
+    background:url('https://cdn.shopify.com/s/files/1/0203/7348/files/mlm_desktop_retouched_3000x.jpg?v=1643655476');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: auto;
+    left: auto;
+    right: auto;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*
+.firstImage .image{
+    background:url('https://cdn.shopify.com/s/files/1/0203/7348/files/mlm_desktop_retouched_3000x.jpg?v=1643655476');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*/
+.banner{
+    width: 100%;
+    text-align: center;
+    background: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.fourBoxes{ 
+    display: flex;
+}
+.fourBoxes .box{
+    background: blue;
+
+    font-size: 30px;
+    font-weight: bold;
+    font-weight: Times;
+    width: 100%;
+}
+.fourBoxes .item{
+    background: red;
+    font-size: 10px;
     font-weight: bold;
     font-weight: Times;
 }
-.Logo ul{
-    list-style: none;
+.fourBoxes .button{
+    background: green;
+    font-size: 10px;
+    font-weight: bold;
+    font-weight: Times;
 }
+
 
 .chatBox{
     position: fixed;
@@ -30,7 +102,7 @@ body .main .firstImage span{
     width: 50px;
 
     right: 20px;
-    left: 100px;
+    bottom: 10px;
    background: black;
     z-index: 9999;
 }
