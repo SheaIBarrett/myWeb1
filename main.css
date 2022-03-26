@@ -45,7 +45,7 @@ background: blue;
 
 
 .firstImage{
-    background:url('https://cdn.shopify.com/s/files/1/0203/7348/files/mlm_desktop_retouched_3000x.jpg?v=1643655476');
+   background:url('https://cdn.shopify.com/s/files/1/0203/7348/files/mlm_desktop_retouched_3000x.jpg?v=1643655476');
     background-size: cover;
     background-repeat: no-repeat;
     top: auto;
@@ -54,7 +54,7 @@ background: blue;
     height: 800px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
 }
 /*
 .firstImage .image{
@@ -94,6 +94,29 @@ background: blue;
     font-weight: bold;
     font-weight: Times;
 }
+.twoBoxes{
+    display: flex;
+}
+.twoBoxes .image{
+    background:url('https://cdn.shopify.com/s/files/1/0203/7348/files/mlm_desktop_retouched_3000x.jpg?v=1643655476');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: auto;
+    left: auto;
+    right: auto;
+    height: 400px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.twoBoxes .textBox{
+    max-width: 50%;
+}
+
+.gridImages{
+    display: flex;
+}
+
 
 
 .chatBox{
